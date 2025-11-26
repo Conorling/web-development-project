@@ -1,0 +1,48 @@
+*{
+    border: 2px black solid;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/mainbackg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav{
+    height: 5vh;
+    align-content: center;
+    background-color: gray;
+}
+
+button{
+    border: 0.1vw black solid;
+    border-radius: 0.2vw;
+    padding: 0.2vw;
+    margin-left: 0.5vw;
+    width: 5vw;
+    height: 3vh;
+}
+
+button:hover{
+    background-color: orange;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+    border-radius: 1vw;
+}
+img:hover{
+    box-shadow: 10px 10px 10px 0 black;
+}
+
+footer{
+    justify-items: center;
+}
