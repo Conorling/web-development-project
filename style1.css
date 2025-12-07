@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+
+.nav {
+    background-color: grey;  
+    overflow: hidden;
+    display: flex;  
+    color: white;
+    border: 10px black solid;
+    
+}
+.nav a {
+    float: left;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #555;
+}
+
+.description{
+    background-color: #333;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: white;
+}
