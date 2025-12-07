@@ -1,12 +1,10 @@
 body{
-    background-color: black;
+    background-color: grey;
 }
 
 .nav {
-    background-color: grey;  
-    overflow: hidden;
+    background-color:black ;  
     display: flex;  
-    color: white;
     border: 10px black solid;
     
 }
@@ -14,6 +12,7 @@ body{
     float: left;
     padding: 14px 20px;
     text-decoration: none;
+    color: white;
 }
 
 .nav a:hover {
@@ -30,4 +29,21 @@ h1{
 p{
     text-align: center;
     color: white;
+}
+table{
+    color: black;
+    text-align: center;
+    margin: 50px auto;       
+    width: 75%;             
+    border-collapse: collapse;
+    font-size: 18px;         
+    text-align: center;   
+    background-color: white; 
+   
+}
+
+th, td{
+    border: 5px solid black;
+    padding: 10px;
+    text-align: left; 
 }
