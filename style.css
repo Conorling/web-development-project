@@ -1,5 +1,5 @@
 *{
-    border: 2px black solid;
+    
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#info_area{
+    height: 100vh;
 }
 
 nav{
@@ -24,6 +28,7 @@ button{
     margin-left: 0.5vw;
     width: 5vw;
     height: 3vh;
+    
 }
 
 button:hover{
@@ -35,8 +40,7 @@ a{
 }
 
 img{
-    width: 30%;
-    height: 30%;
+
     border-radius: 1vw;
 }
 img:hover{
