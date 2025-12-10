@@ -63,6 +63,7 @@ th, td {
 .video{
     margin: 50px auto;
     width: 75%;
+    display: none;
 }
 
 .video_on{
