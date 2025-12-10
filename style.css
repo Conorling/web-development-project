@@ -5,20 +5,22 @@
 }
 
 body{
-    background-image: url(images/mainbackg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: rgba(135, 206, 235, 0.4);
 }
 
 #info_area{
-    height: 100vh;
+    height: 85vh;
+    align-content: center;
+ 
+    
 }
 
+
 nav{
-    height: 5vh;
+    height: 8vh;
     align-content: center;
-    background-color: gray;
+    border-bottom: 0.1vw gray solid;
+    background-color: lightgray;
 }
 
 button{
@@ -34,19 +36,98 @@ button{
 button:hover{
     background-color: orange;
 }
+
 a{
     text-decoration: none;
     color: black;
 }
 
-img{
+.images{
+    margin-bottom: 2vh;
+    display: flex;
+    padding-left: 2vw;
 
-    border-radius: 1vw;
 }
-img:hover{
+
+.images p{
+    align-content: center;
+    border: 0.1vw lightcoral solid;
+    border-radius: 1vw;
+    padding: 0 1vw 0 1vw;
+}
+
+
+.img{
+    border-radius: 1vw;
+    width: 15vw;
+    height:20vh;
+    margin-right: 3vw;
+}
+
+.img:hover{
     box-shadow: 10px 10px 10px 0 black;
 }
 
 footer{
     justify-items: center;
+    align-content: center;
+    background-color: lightgray;
+    height: 7vh;
+    border-top: 0.1vw gray solid;
+
+}
+
+/* graphics card page's styling*/
+
+#graphics_content{
+    align-content: center;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.table{
+    width: 55%;
+    margin: 2vh 5% 2vh 0;
+    border-collapse: collapse;
+    
+
+}
+
+.table_off{
+    display: none;
+}
+
+th, td{
+    border: 0.1vw solid black;
+    text-align: center; 
+    
+}
+
+
+#graphics_content img{
+    width: 45%;
+    height: 40%;
+
+}
+
+#graphics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.video{
+    align-self: center;
+    display: none;
+    width: 55%;
+    margin: 2vh 5% 2vh 0;
+    border-radius: 1vw;
+}
+
+.video_on{
+    display: block;
 }
