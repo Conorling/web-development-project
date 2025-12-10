@@ -40,7 +40,7 @@ p {
     color: white;
 }
 
-.table{
+table {
     color: black;
     text-align: center;
     margin: 50px auto;
@@ -48,33 +48,18 @@ p {
     border-collapse: collapse;
     font-size: 18px;
     background-color: white;
-   
 }
-
-.table_off{
-    display: none;
-}
-
-th, td{
+th, td {
     border: 5px solid black;
     padding: 10px;
-    text-align: left; 
+    text-align: left;
 }
 
-.video{
-    display: none;
-    margin: 50px auto;       
-    width: 75%;                  
-    text-align: center;   
-}
-
-.video_on{
-    display: block;
-}
 
 .image-container {
     display: flex;                   
     justify-content: center;        
     align-items: center;             
-    margin-top: 10px;
+    margin-top: 10px;             
 }
+
