@@ -8,15 +8,15 @@ function Display(){
 
 
  
- // Make click function global
+
 window.myFunction = function() {
   alert('You have added this to cart"!');
 };
 
-// Grab the button
+
 const button = document.getElementById('buyButton');
 
-// Style the button
+
 button.style.backgroundColor = 'yellow';
 button.style.color = 'red';
 button.style.fontSize = '28px';
@@ -29,7 +29,7 @@ button.style.boxShadow = '0 6px 18px black';
 button.style.transition = 'all 0.2s ease';
 button.style.fontFamily = 'Arial, sans-serif';
 
-// Optional: hover effect
+
 button.addEventListener('mouseover', () => {
   button.style.backgroundColor = 'black';
   button.style.transform = 'scale(1.05)';
@@ -39,5 +39,5 @@ button.addEventListener('mouseout', () => {
   button.style.transform = 'scale(1)';
 });
 
-// Connect click to global function
+
 button.addEventListener('click', window.myFunction);

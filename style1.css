@@ -40,7 +40,7 @@ p {
     color: white;
 }
 
-table {
+.table {
     color: black;
     text-align: center;
     margin: 50px auto;
@@ -49,10 +49,24 @@ table {
     font-size: 18px;
     background-color: white;
 }
+
+.table_off{
+    display: none;
+}
+
 th, td {
     border: 5px solid black;
     padding: 10px;
     text-align: left;
+}
+
+.video{
+    margin: 50px auto;
+    width: 75%;
+}
+
+.video_on{
+    display: block;
 }
 
 
