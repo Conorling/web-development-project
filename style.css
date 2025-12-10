@@ -64,6 +64,10 @@ a{
     margin-right: 3vw;
 }
 
+a:hover{
+    color: red;
+}
+
 .img:hover{
     box-shadow: 10px 10px 10px 0 black;
 }
