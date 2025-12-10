@@ -1,8 +1,6 @@
 function Display(){
     document.querySelector(".video").classList.toggle("video_on");
     document.querySelector(".table").classList.toggle("table_off");
-
-
 }
 
 
@@ -36,7 +34,7 @@ button.addEventListener('mouseover', () => {
 });
 button.addEventListener('mouseout', () => {
   button.style.backgroundColor = 'yellow';
-  button.style.transform = 'scale(1)';
+  
 });
 
 
